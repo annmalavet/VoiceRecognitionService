@@ -22,7 +22,13 @@
     <uses-sdk android:minSdkVersion="8" />
 
     <application>
-        
+        <activity android:name=".VoiceActivity"
+              >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
         <!-- The service that implements voice recognition. Note that a label
              for the service is important to provide, as this is what will show
              to users if they have to choose between multiple recognizers in
@@ -37,6 +43,7 @@
                      The constant value is defined at RecognitionService.SERVICE_INTERFACE. -->
                 <action android:name="android.speech.RecognitionService" />
                 <category android:name="android.intent.category.DEFAULT" />
+                
             </intent-filter>
 
             <!-- This points to a metadata xml file that contains information about this
