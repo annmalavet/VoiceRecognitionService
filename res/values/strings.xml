@@ -17,8 +17,10 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sample Voice Recognizer</string>
     
     <!-- The name for the recognizer - to be shown in system settings. -->
+    
     <string name="service_name">Sample Recognizer</string>
         
     <!-- The name of the settings activity. -->

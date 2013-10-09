@@ -31,19 +31,20 @@ public final class R {
         public static final int voice_demo=0x7f030000;
     }
     public static final class string {
+        public static final int app_name=0x7f050000;
         /**  The default value of the preference for the type of results to return
          (letters or numbers). 
          */
-        public static final int results_type_default_value=0x7f050003;
+        public static final int results_type_default_value=0x7f050004;
         /**  The title of the preference for the type of results to return (letters or numbers). 
          */
-        public static final int results_type_title=0x7f050002;
+        public static final int results_type_title=0x7f050003;
         /**  The name for the recognizer - to be shown in system settings. 
          */
-        public static final int service_name=0x7f050000;
+        public static final int service_name=0x7f050001;
         /**  The name of the settings activity. 
          */
-        public static final int settings_name=0x7f050001;
+        public static final int settings_name=0x7f050002;
     }
     public static final class xml {
         public static final int preferences=0x7f040000;
